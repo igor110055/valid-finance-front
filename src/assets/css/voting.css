@@ -1,0 +1,73 @@
+.dark .proposal textarea {
+    color: rgb(190, 186, 186);
+    background: #101722;
+    outline: none;
+}
+
+.dark .proposal textarea:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.dark .proposal textarea:active {
+    box-shadow: none;
+    outline: none;
+}
+
+
+
+.vot-currency-table {
+    overflow-y: auto;
+}
+
+.dark .vot-currency-table-header {
+    background: transparent;
+    min-width: 120px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.light .vot-currency-table-header {
+    min-width: 120px;
+    font-weight: bold;
+}
+
+.vot-currency-table-body img {
+    margin: auto;
+}
+
+.dark .vot-currency-table-body {
+    background: transparent;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    text-align: center;
+}
+
+.dark .vot-currency-table-body tr td {
+    color: rgb(173, 173, 175) !important;
+}
+
+
+.dark .vot-currency-table-footer {
+    background: transparent;
+    color: rgb(125, 144, 238);
+}
+
+.light .vot-currency-table-footer {
+    color: #23323c;
+}
+
+@media (max-width:500px) {
+    .mobile-flex-d-cr {
+        flex-direction: column-reverse;
+    }
+
+    .mobile-flex-d-c {
+        flex-direction: column;
+    }
+
+    .mobile-tc {
+        text-align: center;
+    }
+}

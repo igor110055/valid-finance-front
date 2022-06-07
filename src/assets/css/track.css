@@ -1,0 +1,41 @@
+.currency-table {
+    overflow-y: hidden;
+}
+
+.dark .currency-table-header {
+    background: #23323c;
+    min-width: 120px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.light .currency-table-header {
+    min-width: 120px;
+    font-weight: bold;
+}
+
+.currency-table-body img {
+    margin: auto;
+}
+
+.dark .currency-table-body {
+    background: #23323c;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    text-align: center;
+}
+
+.dark .currency-table-body tr td {
+    color: rgb(173, 173, 175) !important;
+}
+
+
+.dark .currency-table-footer {
+    background: #23323c;
+    color: rgb(125, 144, 238);
+}
+
+.light .currency-table-footer {
+    color: #23323c;
+}

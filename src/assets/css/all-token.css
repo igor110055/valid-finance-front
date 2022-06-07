@@ -1,0 +1,97 @@
+.token-info {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.upvote-symbol {
+    width: 50px;
+    height: 50px;
+}
+
+.upvote-symbol:hover {
+    cursor: pointer;
+    color: rgb(27, 200, 112) !important;
+}
+
+
+.toplist-currency-table {
+    overflow-y: auto;
+}
+
+.dark .toplist-currency-table-header {
+    background: transparent;
+    min-width: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.light .toplist-currency-table-header {
+    min-width: 60px;
+    font-weight: bold;
+}
+
+.toplist-currency-table-body img {
+    margin: auto;
+}
+
+.dark .toplist-currency-table-body {
+    background: transparent;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    text-align: center;
+}
+
+.dark .toplist-currency-table-body tr td {
+    color: rgb(173, 173, 175) !important;
+}
+
+
+.dark .toplist-currency-table-footer {
+    background: transparent;
+    color: rgb(125, 144, 238);
+}
+
+.light .toplist-currency-table-footer {
+    color: #23323c;
+}
+
+.search-part-for-alltoken {
+    border-radius: 20px;
+    background-color: #23323c;
+    margin: 8px !important;
+    width: 100% !important;
+}
+
+.light .search-part-for-alltoken {
+    background: #ffffff;
+}
+
+.light .search-part-for-alltoken input {
+    color: #14141f !important;
+}
+
+/* .light .token-search-bar-container {
+    background-color: #e5eaee;
+} */
+
+.token-search-bar-container {
+    flex: 1;
+    margin: 0px 19px 0px 5px;
+}
+
+@media (max-width:650px) {
+    .upvote-container {
+        flex-direction: column;
+    }
+
+    .search-part-for-alltoken {
+        margin: 0px !important;
+    }
+
+    .token-search-bar-container {
+        flex: 1;
+        margin: 0px 0px 0px 0px;
+    }
+}

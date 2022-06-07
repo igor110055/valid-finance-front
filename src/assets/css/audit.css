@@ -1,0 +1,7 @@
+.email-input {
+    background: black;
+}
+
+.light .email-input {
+    background: white;
+}

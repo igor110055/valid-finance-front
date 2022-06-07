@@ -1,0 +1,126 @@
+.darkmode .icon {
+    color: #23323c;
+}
+
+
+.dark .token-address-color {
+    color: rgba(211, 242, 218, 1);
+    font-size: 14px;
+}
+
+.token-address-color {
+    color: rgb(31, 32, 32);
+    font-size: 14px;
+}
+
+.chart-container1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.chart-container2 {
+    height: 60vh;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    background: #23323c;
+    color: white;
+}
+
+.dark .chart-table-body {
+    background: #23323c;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    text-align: center;
+}
+
+.light .chart-container2 {
+    background: white !important;
+    color: black !important;
+}
+
+.chart-container3 {
+    height: 97%;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 10px;
+    display: flex;
+    background: #23323c;
+    color: white;
+}
+
+.light .chart-container3 {
+    background: white !important;
+    color: black !important;
+}
+
+.tradingview {
+    width: 98%;
+    flex: 1;
+}
+
+.tradingview-detail {
+    height: 100%;
+    max-width: 300px;
+    margin-left: 10px;
+}
+
+.tradingview-detail {
+    height: 100%;
+    background: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.light .tradingview-detail-con {
+    color: #23323c !important;
+}
+
+
+@media (max-width:900px) {
+    .chart-container3 {
+        flex-direction: column;
+        height: 98%;
+    }
+
+    .chart-container2 {
+        height: 100vh;
+    }
+
+    .tradingview {
+        height: 70vh;
+        width: 100%;
+        flex: 1;
+    }
+
+    .tradingview-detail {
+        height: auto;
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:500px) {
+    .chart-container1 {
+        padding: 0px;
+    }
+
+    .chart-container2 {
+        height: 130vh;
+    }
+
+    .chart-container3 {
+        height: 99%;
+        margin: 4px !important;
+        padding: 4px !important;
+    }
+
+    .tradingview {
+        width: 100%;
+    }
+}
